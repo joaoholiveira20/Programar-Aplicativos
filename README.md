@@ -14,3 +14,9 @@ git commit -m "comandos básicos do git."
 
 4) enviar alterações para GitHub:
 git push
+
+
+## Branch
+
+Mostrar branches no computador:
+git branch
