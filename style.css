@@ -1,0 +1,32 @@
+/* RESET DE CONFIGURAÇÕES GERAIS PARA OS NAVEGADORES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("assets/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    margin: 20px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Arial';
+    margin: 20px;
+}
