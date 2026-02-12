@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    /* padrâo */
 }
 
 body {
     background-color: #ffffff;
     background-image: url("assets/fundo.jpg");
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,4 +30,67 @@ p {
     font-size: 20px;
     font-family: 'Arial';
     margin: 20px;
+}
+
+hr {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    color: brown;
+}
+
+button {
+    display: block;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 30PX;
+    border-radius: 6px;
+    text-decoration: none;
+    
+}
+
+li {
+    margin: 12px auto;
+    padding: 2 px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+    height: 20px;
+    font-size: 25px;
+}
+
+img {
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+input [type="text"] {
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
 }
